@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_pic"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00B823"
+        android:text="חיות ומה הן אומרות!"
+        android:textColor="@color/black"
+        android:textSize="40sp" />
+    <ImageView
+        android:id="@+id/pic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/got"
+        android:layout_margin="10dp"> </ImageView>
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:columnCount="2">
+
+
+        <Button
+            android:layout_margin="10dp"
+            android:id="@+id/gorilla"
+            android:layout_width="117dp"
+            android:text="gorilla"
+            android:background="@drawable/button_style"> </Button>
+
+        <Button
+            android:id="@+id/where_am_i"
+            android:layout_width="117dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/button_style"
+            android:text="where am i"> </Button>
+        <Button
+            android:layout_margin="10dp"
+            android:id="@+id/get_out"
+            android:layout_width="117dp"
+            android:text="get out"
+            android:background="@drawable/button_style"> </Button>
+        <Button
+            android:layout_margin="10dp"
+            android:id="@+id/gay_hoter"
+            android:layout_width="117dp"
+            android:text="gay hoter"
+            android:background="@drawable/button_style"> </Button>
+
+    </GridLayout>
+
+    <Button
+        android:layout_width="117dp"
+        android:layout_height="wrap_content"
+        android:text="dadon meow"
+        android:background="@drawable/button_style"
+        android:id="@+id/dadon_meow"
+    > </Button>
+
+</LinearLayout>
