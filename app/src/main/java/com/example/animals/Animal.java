@@ -7,6 +7,14 @@ public class Animal {
     private String name;
     private Button button;
     private int picture, sound;
+
+    public Animal(String name, Button button, int picture, int sound)
+    {
+        this.button = button;
+        this.name = name;
+        this.picture = picture;
+        this.sound = sound;
+    }
     public String getName() {
         return name;
     }
